@@ -1,0 +1,14 @@
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.csprojAssemblyReference.cache
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7._4.resources
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7._5.resources
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7._6.resources
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.Menu.resources
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.Properties.Resources.resources
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.csproj.GenerateResource.cache
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.csproj.CoreCompileInputs.cache
+C:\Users\jose_\source\repos\Tarea7\Tarea7\bin\Debug\Tarea7.exe.config
+C:\Users\jose_\source\repos\Tarea7\Tarea7\bin\Debug\Tarea7.exe
+C:\Users\jose_\source\repos\Tarea7\Tarea7\bin\Debug\Tarea7.pdb
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.csproj.CopyComplete
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.exe
+C:\Users\jose_\source\repos\Tarea7\Tarea7\obj\Debug\Tarea7.pdb
