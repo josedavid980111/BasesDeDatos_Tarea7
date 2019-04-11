@@ -1,0 +1,14 @@
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.csprojAssemblyReference.cache
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7._4.resources
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7._5.resources
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7._6.resources
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.Menu.resources
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.csproj.GenerateResource.cache
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.Properties.Resources.resources
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.csproj.CoreCompileInputs.cache
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\bin\Debug\Tarea7.exe.config
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\bin\Debug\Tarea7.exe
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\bin\Debug\Tarea7.pdb
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.csproj.CopyComplete
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.exe
+D:\Usuario\Jose\Documents\GitHub\Tarea7\Tarea7\obj\Debug\Tarea7.pdb
