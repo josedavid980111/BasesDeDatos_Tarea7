@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -238,8 +238,7 @@ namespace Tarea7
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (conexion)
-            {
+            
                 try
                 {
                     t.Commit();        //Confirma la transacción.
@@ -252,7 +251,7 @@ namespace Tarea7
                 GestorBD.conex.Close();      //Cierra la conexión a la BD.
                 t = null;                       //Destruye el objeto de transacción.
                 conexion = false;
-            }
+            
             DateTimePicker1.Value = DateTime.Now;
             comboBox2.Visible = false;
             label2.Visible = false;
@@ -305,21 +304,7 @@ namespace Tarea7
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if (conexion)
-            {
-                try
-                {
-                    t.Commit();        //Confirma la transacción.
-                }
-                catch (OleDbException er)
-                {
-                    MessageBox.Show(er.Message);
-                    t.Rollback();      //Si hay error, revierte la transacción.
-                }
-                GestorBD.conex.Close();      //Cierra la conexión a la BD.
-                t = null;                       //Destruye el objeto de transacción.
-                conexion = false;
-            }
+            
 
 
             try
@@ -375,7 +360,18 @@ namespace Tarea7
                 }
                 else
                 {
-
+                    try
+                    {
+                        t.Commit();        //Confirma la transacción.
+                    }
+                    catch (OleDbException er)
+                    {
+                        MessageBox.Show(er.Message);
+                        t.Rollback();      //Si hay error, revierte la transacción.
+                    }
+                    GestorBD.conex.Close();      //Cierra la conexión a la BD.
+                    t = null;                       //Destruye el objeto de transacción.
+                    conexion = false;
 
                     MessageBox.Show("No hay Datos del Cliente en esa Sucursal");
                 }
@@ -391,11 +387,11 @@ namespace Tarea7
         private void _6_Load(object sender, EventArgs e)
         {
             //1- Hcer la conexión a la BD de Oracle
-
-            GestorBD = new GestorBD.GestorBD("MSDAORA", "System", "gonbar", "xe");
             /*
-             GestorBD = new GestorBD.GestorBD("MSDAORA", "BD03", "gonbar", "oracle");
+            GestorBD = new GestorBD.GestorBD("MSDAORA", "System", "gonbar", "xe");
             */
+             GestorBD = new GestorBD.GestorBD("MSDAORA", "BD03", "gonbar", "oracle");
+            
 
             //2.1- Obtiene y muestra los datos de los Cliente.
             cadSQL = "Select * from T4Cliente";
